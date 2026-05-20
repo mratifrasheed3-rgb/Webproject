@@ -3,31 +3,29 @@
         <title> MY Online Store
         </title>
         <link rel="stylesheet" href="style11.css">
+        <script src="script1.js"></script>
     </head>
     <body>
 
-        <nav id="navbar"
-          <div class="logo">MY ONLINE STORE</div>
+     <header class="main-header">
+    <div class="logo">MY <span>ONLINE STORE</span></div>
+    
+    <button class="nav-toggle" id="navToggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
 
-          <div class="menu-toggle"
-          oneclick="toggleMenu()">
-
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        
-          </div>
-
-        <ul id="nav-links">
+    <nav class="navbar" id="navbarMenu">
+        <ul>
+            <li><a href="#" class="active"></a></li>
             <li><a href="about.html">About</a></li>
-          <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
             <li><a href="customer Service.html">Customer Service</a></li>
             <li><a href="contact us.html">Contact Us</a></li>
         </ul>
     </nav>
-        
+</header> 
 
-        <div id="box1">WELCOME ONLINE STORE</div>
+        <!-- <div id="box1">WELCOME ONLINE STORE</div> -->
 x
             <div id="box2">
                 <label for="search"></label>
@@ -54,7 +52,64 @@ x
                 <p>$19.99</p>
                 <button>Add to cart</button>
             </div>
+            
+             <div class="product-card">
+            <img src="product-5.jpg"  alt="Product-5">
+                <h3>HP LAPTOP</h3>
+                <p>$199.99</p>
+                <button>Add to cart</button>
+            </div>
+
+             <div class="product-card">
+            <img src="product-6.jfif"  alt="Product-6">
+                <h3>IPHONE 14 PRO MAX</h3>
+                <p>$500</p>
+                <button>Add to cart</button>
+            </div>
+            
+             <div class="product-card">
+            <img src="product-7.jfif"  alt="Product-7">
+                <h3>IPAD A16 PRO </h3>
+                <p>$400</p>
+                <button>Add to cart</button>
+            </div>
+            
+             <div class="product-card">
+            <img src="product-8.jfif"  alt="Product-8">
+                <h3>IPAD A17 PRO</h3>
+                <p>$500</p>
+                <button>Add to cart</button>
+            </div>
+            
+             <div class="product-card">
+            <img src="product-9.jfif"  alt="Product-9">
+                <h3>PLAY SATATION 5 </h3>
+                <p>$699.99</p>
+                <button>Add to cart</button>
+            </div>
+
 </section>
+
+<footer class="main-footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>MY <span>ONLINE STORE</span></h3>
+                <p>Welcome to our premium tech store! We provide top-quality gadgets, from elite gaming consoles to premium laptops and accessories, ensuring authentic care and service.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Social Connect</h4>
+                <p style="color: #a0aec0; font-size: 14px; margin-bottom: 12px;">Follow us on social media to stay updated with our latest premium tech products:</p>
+                <a href="https://www.facebook.com/" target="_blank" class="fb-btn">
+                    Connect on Facebook
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Premium Tech Store. All Rights Reserved.</p>
+        </div>
+    </footer>
         </body>
         </html>
 
